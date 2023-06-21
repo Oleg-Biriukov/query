@@ -1,0 +1,106 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background: no-repeat url("https://www.companiesmadesimple.com/blog/wp-content/uploads/2015/03/unnamed.jpg");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+
+}
+
+div, p, input, button, form, span, a, ul, li, section, header, footer {
+  box-sizing: border-box;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  box-sizing: border-box;
+} 
+
+div{
+  display: block;
+}
+
+.conteyner{
+  width: 970px;
+  margin: 0 auto;
+}
+
+.section {  
+  margin: 0 0 0 0;
+  padding-top: 150px;
+  height: 936px;
+  width: 100%;
+  background: rgba(249, 174, 81, 0.8);
+}
+
+
+.form {
+  width: 700px;
+  height: auto;
+  background: rgb(246,255,197);
+  background: radial-gradient(circle, rgba(246,255,197,1) 11%, rgba(233,170,100,1) 100%);
+  margin: 0 auto;
+  padding: 10px 30px 40px 35px;  
+  border: 10px solid #B495C6;
+  border-radius: 20px;
+}
+
+
+.loginText {
+  font-size: 90px;
+  color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.formVal{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.submit{
+  color: #000;
+  background: #B495C6;
+  width: 500px;
+  height: 40px;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid black;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.input{
+  width: 500px;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  text-align: center;
+  border: 2px solid #B495C6;
+  border-radius: 10px;
+}
+
+.submit:hover{
+  color: #757575;
+  background: #6C5A77;
+}
+
+.remember{
+  color: white;
+  font-weight: 25px;
+  font-size: 20px;
+  text-align: right ;
+  margin: 1px 0;
+}
+
+.errorLog{
+  color: #940000;
+  margin: 1px 0;
+  font-size: 20px;
+  font-weight: 30px;
+  text-align: center;
+}
+
